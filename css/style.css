@@ -1,0 +1,26 @@
+/*debug*/
+.debug {
+    border: 3px solid red; 
+}
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Colori*/
+
+:root {
+    --dark: #23272A;
+    --blue: #255EE9;
+    --light: #F6F6F6;
+    --violet: #748ADB;
+}
+
+/*Font*/
+
+.body {
+
+}

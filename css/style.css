@@ -3,6 +3,10 @@
     border: 3px solid red; 
 }
 
+.debug2 {
+    border: 3px solid rgb(0, 0, 0); 
+}
+
 /*reset*/
 *{
     margin: 0;
@@ -17,6 +21,102 @@
     --blue: #255EE9;
     --light: #F6F6F6;
     --violet: #748ADB;
+}
+
+.bg-blue {
+    color: var(--blue);
+}
+
+.bg-light {
+    color: var(--light);
+}
+
+.bg-dark {
+    color: var(--dark);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.content {
+    width: 40%;
+}
+
+.image {
+    width: 60%;
+}
+
+.image img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align {
+ 
+}
+main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#hero {
+    height: 600px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#place {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+#meet {
+    height: 600px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#community {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+#tecnology {
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Font*/

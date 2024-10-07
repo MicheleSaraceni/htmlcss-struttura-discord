@@ -21,18 +21,23 @@
     --blue: #255EE9;
     --light: #F6F6F6;
     --violet: #748ADB;
+    --gray: #D9D9D9;
 }
 
 .bg-blue {
-    color: var(--blue);
+    background-color: var(--blue);
+}
+
+.bg-gray {
+    background-color: var(--gray);
 }
 
 .bg-light {
-    color: var(--light);
+    background-color: var(--light);
 }
 
 .bg-dark {
-    color: var(--dark);
+    background-color: var(--dark);
 }
 
 .container{
@@ -70,6 +75,10 @@
     justify-content: space-between;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .align {
  
 }
@@ -86,7 +95,6 @@ ul {
 }
 
 #hero {
-    height: 600px;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
@@ -94,26 +102,21 @@ ul {
 }
 
 #place {
-    height: 600px;
     justify-content: center;
     align-items: center;
 }
 
 #meet {
-    height: 600px;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 }
 
 #community {
-    height: 600px;
     justify-content: center;
     align-items: center;
 }
 
 #tecnology {
-    height: 600px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
